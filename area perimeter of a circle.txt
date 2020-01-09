@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main {
+ public static void main(String[] args) {
+  Scanner io = new Scanner(System.in);
+  System.out.println("Input the radius of the circle: ");
+  double radius = io.nextDouble();
+  System.out.println("Perimeter is = " + (2 * radius * Math.PI));
+  System.out.println("Area is = " + (Math.PI * radius * radius));
+ }
+}
+OUTPUT:
+Input the radius of the circle: 
+ 4.227
+Perimeter is = 26.559024293448115
+Area is = 56.1324978442026
